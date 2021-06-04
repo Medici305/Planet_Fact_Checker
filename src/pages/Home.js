@@ -1,12 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import Nav from "../components/Nav";
+import Planet from "../components/Planet";
 import bg from "../Images/sapce4.jpg";
 
 const Home = () => {
   return (
     <StyleHome>
       <Nav />
+      <Planet />
     </StyleHome>
   );
 };

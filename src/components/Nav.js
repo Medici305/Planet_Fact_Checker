@@ -89,6 +89,9 @@ const StyleNav = styled.nav`
     }
     a {
       text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #838391;
     }
   }
   svg {

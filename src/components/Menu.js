@@ -82,6 +82,7 @@ const DropDown = styled.div`
   width: 100%;
   color: #fff;
   padding: 5rem 3rem;
+  background-color: #070625;
   @media (min-width: 578px) {
     display: none;
   }
@@ -90,6 +91,7 @@ const DropDown = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
+      text-decoration: none;
 
       .planet {
         flex: 0.5;
